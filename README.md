@@ -4,18 +4,23 @@
  🔢 MNIST Handwritten Digit Recogniser
 An end-to-end Machine Learning project that trains a Convolutional Neural Network on the MNIST dataset to classify handwritten digits (0–9) with ~99% test accuracy, served through a live Flask web app where users draw digits on a canvas for real-time AI predictions.
 
-🚀 Features
-✅ Full preprocessing pipeline (normalise, reshape, one-hot encode)
-✅ 3-block CNN with BatchNorm, MaxPooling & Dropout
-✅ EarlyStopping + ModelCheckpoint callbacks
-✅ Classification report + Confusion matrix visualisation
-✅ Interactive Flask UI — draw a digit, get instant predictions
-✅ Confidence score + per-class probability bars
-✅ Prediction history panel
-🛠️ Stack
-Python · TensorFlow/Keras · Scikit-learn · Flask · Matplotlib · Seaborn
+## Features
+1- Full preprocessing pipeline (normalise, reshape, one-hot encode)
+2- block CNN with BatchNorm, MaxPooling & Dropout
+3- EarlyStopping + ModelCheckpoint callbacks
+4- Classification report + Confusion matrix visualisation
+5- Interactive Flask UI — draw a digit, get instant predictions
+6- Confidence score + per-class probability bars
+7- Prediction history panel
+ Stack
+Python ·
+TensorFlow/Keras
+· Scikit-learn ·
+Flask ·
+Matplotlib · 
+Seaborn
 
-▶️ Quick Start
+## Quick Start
 bash
 pip install -r requirements.txt
 # Train the model
